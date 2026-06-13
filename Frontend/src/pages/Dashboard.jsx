@@ -7,7 +7,7 @@ import {
   Loader2, AlertTriangle, ListTodo, Flag, Search, LogOut, Sun, Moon, Tag
 } from "lucide-react";
 
-const API = "http://localhost:5000/api/tasks";
+const API ="https://task-manager-yikb.onrender.com/api/tasks" ;
 
 const statusConfig = {
   "Pending": { color: "bg-yellow-100 text-yellow-800 border-yellow-300", icon: Clock },
